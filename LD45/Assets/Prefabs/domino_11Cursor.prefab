@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 500401445758972578}
   - component: {fileID: 2989204836329520584}
   - component: {fileID: -9053328163066108781}
+  - component: {fileID: -4801020718026298427}
   m_Layer: 0
   m_Name: domino_11Cursor
   m_TagString: Cursors
@@ -93,7 +94,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00acbe7d354e60749b702b4d5aeceef9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalObject: {fileID: 5456953641795828592, guid: a828c9c234caba44bbb007ecce14e029,
+  finalObject: {fileID: 554543116727145397, guid: 8aca0b3a8770db34496cf742029d036e,
+    type: 3}
+  otherObject: {fileID: 554543116727145397, guid: 8aca0b3a8770db34496cf742029d036e,
     type: 3}
   allTilesLayer:
     serializedVersion: 2
@@ -108,4 +111,29 @@ MonoBehaviour:
   - {fileID: 4885099615150294226, guid: 69e422d076b1f1c43a1cbf665a8f1648, type: 3}
   - {fileID: 1733868874395986518, guid: 252eea8e813cd1c48a6f59380e9057b1, type: 3}
   - {fileID: 373386680436598411, guid: 2f8200e56f4c6794d80a1037915e022c, type: 3}
-  - {fileID: 3986506749206360435, guid: 05fffca42b23dce4fa5eb85c347a6e1a, type: 3}
+--- !u!61 &-4801020718026298427
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7727677951035945376}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.2000003, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.25, y: 0.5}
+    oldSize: {x: 12.8, y: 6.4}
+    newSize: {x: 12.8, y: 6.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 12.8, y: 6.4}
+  m_EdgeRadius: 0

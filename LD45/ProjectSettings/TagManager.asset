@@ -6,6 +6,7 @@ TagManager:
   tags:
   - VineTile
   - Cursors
+  - Tiles
   layers:
   - Default
   - TransparentFX
