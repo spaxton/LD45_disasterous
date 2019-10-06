@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2938369661487089032}
   - component: {fileID: 2151072294479907094}
   - component: {fileID: -8610656054729530158}
+  - component: {fileID: 2082519305361286520}
+  - component: {fileID: -358976587952933310}
   m_Layer: 0
   m_Name: domino_03Cursor
   m_TagString: Cursors
@@ -137,3 +139,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 12.8, y: 6.4}
   m_EdgeRadius: 0
+--- !u!114 &2082519305361286520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6950127997505708761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Tile Place
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &-358976587952933310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6950127997505708761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1

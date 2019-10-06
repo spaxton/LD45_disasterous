@@ -12,10 +12,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 6972650762889307410}
+  - {fileID: 2827376781171131097}
+  EditorEvents:
+  - {fileID: 8093668594861111309}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  stringsBankWriteTime: 0
+  MasterBanks:
+  - {fileID: 2827376781171131097}
+  StringsBanks:
+  - {fileID: 6972650762889307410}
+  stringsBankWriteTime: 637059756300000000
   cacheVersion: 3
+--- !u!114 &2827376781171131097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/Ben/Documents/GitHub/LD45_disasterous/LD45/LD45_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637059756300000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 8864
+  Exists: 1
+--- !u!114 &6972650762889307410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/Ben/Documents/GitHub/LD45_disasterous/LD45/LD45_FMOD/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637059756300000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 740
+  Exists: 1
+--- !u!114 &8093668594861111309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Tile Place
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Tile Place
+  guid: bc87e48f59e4a8439a2051d63aaa973d
+  Banks:
+  - {fileID: 2827376781171131097}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1478

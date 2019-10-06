@@ -268,9 +268,9 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
   - component: {fileID: 519420033}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420029}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -278,14 +278,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
+--- !u!114 &519420029
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!114 &519420030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,6 +783,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29aaa60fd850d354f982c8a78aae950f, type: 3}
+--- !u!1 &1129399617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3986506749206360435, guid: 05fffca42b23dce4fa5eb85c347a6e1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1572228290}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129399618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129399617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/SFX/Tile Place
+  PlayEvent: 15
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &1214571005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1207,12 +1241,12 @@ PrefabInstance:
     - target: {fileID: 4910334662262622938, guid: 05fffca42b23dce4fa5eb85c347a6e1a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.05
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: 4910334662262622938, guid: 05fffca42b23dce4fa5eb85c347a6e1a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44
+      value: -0.42
       objectReference: {fileID: 0}
     - target: {fileID: 4910334662262622938, guid: 05fffca42b23dce4fa5eb85c347a6e1a,
         type: 3}
