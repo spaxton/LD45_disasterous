@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{2d7f8ff2-c89a-4c64-a210-951c0ae692fd}">
+		<property name="assetPath">
+			<value>Board_Clear.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5592970521541951</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0f73a103-30e3-4330-a6da-b3fb0ce4072d}</destination>
+		</relationship>
+	</object>
+</objects>

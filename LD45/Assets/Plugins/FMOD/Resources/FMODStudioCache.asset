@@ -1,5 +1,137 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6977164123648191579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Board Clear
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Board Clear
+  guid: 6fee84840bd6b64aa94afd47493e5897
+  Banks:
+  - {fileID: -5588927115559447343}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1559
+--- !u!114 &-5588927115559447343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/Ben/Documents/GitHub/LD45_disasterous/LD45/LD45_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637060447590000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 770464
+  Exists: 1
+--- !u!114 &-5581333141320278207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/Ben/Documents/GitHub/LD45_disasterous/LD45/LD45_FMOD/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637060447590000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 992
+  Exists: 1
+--- !u!114 &-4582800411407921644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music
+  guid: f9281d32d1d20a45a2a495bee38d586f
+  Banks:
+  - {fileID: -5588927115559447343}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 49230
+--- !u!114 &-4552213111941007494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Pumpkin Sale
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Pumpkin Sale
+  guid: c50e2a4588c8fc4da4909e86e5f1d0aa
+  Banks:
+  - {fileID: -5588927115559447343}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2964
+--- !u!114 &-3295699152240601255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Homescreen Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Homescreen Music
+  guid: e748f1cb00353a4f85bce474a231eb52
+  Banks:
+  - {fileID: -5588927115559447343}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8908
 --- !u!114 &-2330076449771923492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,16 +165,21 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 2704659555349124780}
-  - {fileID: -2330076449771923492}
+  - {fileID: -5581333141320278207}
+  - {fileID: -5588927115559447343}
   EditorEvents:
   - {fileID: 8093668594861111309}
+  - {fileID: -6977164123648191579}
+  - {fileID: -4552213111941007494}
+  - {fileID: -3295699152240601255}
+  - {fileID: -4582800411407921644}
+  - {fileID: 6791358944500329660}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2330076449771923492}
+  - {fileID: -5588927115559447343}
   StringsBanks:
-  - {fileID: 2704659555349124780}
-  stringsBankWriteTime: 637059776868509079
+  - {fileID: -5581333141320278207}
+  stringsBankWriteTime: 637060447590000000
   cacheVersion: 3
 --- !u!114 &2704659555349124780
 MonoBehaviour:
@@ -84,6 +221,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 8864
   Exists: 1
+--- !u!114 &6791358944500329660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Vine Removal
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Vine Removal
+  guid: fcce7f2896d3484fa72557f478367b70
+  Banks:
+  - {fileID: -5588927115559447343}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1987
 --- !u!114 &6972650762889307410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,7 +279,7 @@ MonoBehaviour:
   Path: event:/SFX/Tile Place
   guid: bc87e48f59e4a8439a2051d63aaa973d
   Banks:
-  - {fileID: -2330076449771923492}
+  - {fileID: -5588927115559447343}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
