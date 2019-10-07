@@ -7,6 +7,9 @@ TagManager:
   - VineTile
   - Cursors
   - Tiles
+  - Sweet
+  - Silly
+  - Spooky
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - 
   - GridBGLayer
   - TileLayer
-  - 
+  - Cursor
   - 
   - 
   - 
@@ -44,12 +47,12 @@ TagManager:
   - name: GridBGLayer
     uniqueID: 1288297009
     locked: 0
+  - name: TileLayer
+    uniqueID: 399196949
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: OtherTileLayer
     uniqueID: 91825945
-    locked: 0
-  - name: TileLayer
-    uniqueID: 399196949
     locked: 0

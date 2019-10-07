@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 1614503933662556005}
   - component: {fileID: 8282720034683549913}
   - component: {fileID: 7838980389341456982}
-  m_Layer: 0
+  - component: {fileID: 8486209881084284615}
+  m_Layer: 11
   m_Name: domino_02Cursor
   m_TagString: Cursors
   m_Icon: {fileID: 0}
@@ -100,6 +101,8 @@ MonoBehaviour:
     type: 3}
   otherObject: {fileID: 6754498562820808351, guid: 29aaa60fd850d354f982c8a78aae950f,
     type: 3}
+  vineRemoval: {fileID: 6754498562820808351, guid: 12f2b83144440be4f8dae2209af3cc89,
+    type: 3}
   allTilesLayer:
     serializedVersion: 2
     m_Bits: 1024
@@ -175,3 +178,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ListenerNumber: -1
+--- !u!50 &8486209881084284615
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8897455703099522673}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

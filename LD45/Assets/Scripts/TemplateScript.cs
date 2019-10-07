@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class TemplateScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     [SerializeField] // This is the object placed directly under the mouse
     private GameObject finalObject;
 
     [SerializeField] // This is the object placed adjacent to the finalObject
     private GameObject otherObject;
+
+    [SerializeField] // This is the object placed adjacent to the finalObject
+    private GameObject vineRemoval;
 
     private Vector3 otherRot = Vector3.right;
 
@@ -31,6 +28,8 @@ public class TemplateScript : MonoBehaviour
 
     private GameObject newCursor;
 
+    private bool badPos = false;
+
     // Update is called once per frame
     void Update()
     {
@@ -40,11 +39,11 @@ public class TemplateScript : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             // Raycast method of collision checking
-            Vector2 mouseRay = Camera.main.ScreenToWorldPoint(transform.position);
-            RaycastHit2D rayHit = Physics2D.Raycast(mousePos, Vector2.zero, Mathf.Infinity, allTilesLayer);
+            //Vector2 mouseRay = Camera.main.ScreenToWorldPoint(transform.position);
+            //RaycastHit2D rayHit = Physics2D.Raycast(mousePos, Vector2.zero, Mathf.Infinity, allTilesLayer);
             // if (rayHit.collider == null)
 
-            if (rayHit.collider == null)
+            if (badPos == false)
             {
                 Instantiate(finalObject, transform.position, Quaternion.identity);
                 Instantiate(otherObject, transform.position + otherRot, Quaternion.identity);
@@ -86,6 +85,12 @@ public class TemplateScript : MonoBehaviour
                 currentRot = 0;
             }
         }
+
+        if (Input.GetKeyDown("b"))
+        {
+            Instantiate(vineRemoval, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 
     void GetNewCursor()
@@ -97,6 +102,28 @@ public class TemplateScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
-        Debug.Log("currently colliding");
+        if (other.gameObject.layer == 10)
+        {
+            badPos = true;
+        } 
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        //Check for a match with the specific tag on any GameObject that collides with your GameObject
+        if (other.gameObject.layer == 10)
+        {
+            badPos = true;
+        }
+    }
+
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        //Check for a match with the specific tag on any GameObject that collides with your GameObject
+        if (other.gameObject.layer == 10)
+        {
+            badPos = false;
+        }
     }
 }
