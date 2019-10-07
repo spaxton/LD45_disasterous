@@ -40,6 +40,7 @@ public class PumpkinScript : MonoBehaviour
         {
             completed = true;
         }
+        /*
         if (Input.GetKeyDown("space"))
         {
             if (completed == true)
@@ -47,6 +48,7 @@ public class PumpkinScript : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+        */
         if (Input.GetMouseButtonUp(0))
         {
             //Invoke("Ending", 0.5f);

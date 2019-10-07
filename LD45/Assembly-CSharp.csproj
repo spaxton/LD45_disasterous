@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\DragnDropScript.cs" />
      <Compile Include="Assets\Scripts\PumpkinScript.cs" />
      <Compile Include="Assets\Scripts\ResetScript.cs" />
+     <Compile Include="Assets\Scripts\ScoringScript.cs" />
      <Compile Include="Assets\Scripts\TemplateScript.cs" />
      <Compile Include="Assets\Scripts\VineRemovalScript.cs" />
      <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />

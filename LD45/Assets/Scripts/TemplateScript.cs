@@ -10,9 +10,6 @@ public class TemplateScript : MonoBehaviour
     [SerializeField] // This is the object placed adjacent to the finalObject
     private GameObject otherObject;
 
-    [SerializeField] // This is the object placed adjacent to the finalObject
-    private GameObject vineRemoval;
-
     private Vector3 otherRot = Vector3.right;
 
     private Vector2 mousePos;
@@ -84,12 +81,6 @@ public class TemplateScript : MonoBehaviour
                 otherRot = Vector3.right;
                 currentRot = 0;
             }
-        }
-
-        if (Input.GetKeyDown("b"))
-        {
-            Instantiate(vineRemoval, transform.position, Quaternion.identity);
-            Destroy(gameObject);
         }
     }
 
