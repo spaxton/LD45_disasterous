@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoringScript : MonoBehaviour
 {
@@ -51,8 +52,13 @@ public class ScoringScript : MonoBehaviour
         {
             VineRemoval();
         }
-        scoreText.text = "Score: " + score.ToString();
-        vineText.text = "(B) Vine Removal: " + removalCost.ToString();
+        scoreText.text = score.ToString();
+        vineText.text = removalCost.ToString();
+    }
+
+    public void ResetGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     void GetNewCursor()
@@ -61,7 +67,7 @@ public class ScoringScript : MonoBehaviour
         Instantiate(cursors[index], Camera.main.ScreenToWorldPoint(Input.mousePosition), Quaternion.identity);
     }
 
-    private void VineRemoval()
+    public void VineRemoval()
     {
         if (score >= removalCost)
         {
@@ -73,7 +79,7 @@ public class ScoringScript : MonoBehaviour
         }
     }
 
-    private void CullPumpkins()
+    public void CullPumpkins()
     {
         SpookyArray = GameObject.FindGameObjectsWithTag("Spooky");
         foreach (GameObject pumpkin in SpookyArray)
