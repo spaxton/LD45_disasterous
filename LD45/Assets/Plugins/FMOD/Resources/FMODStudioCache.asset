@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: event:/SFX/Click Normal
   guid: f24fa7fc9a145e4bbba64c0e57738db8
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -58,7 +58,7 @@ MonoBehaviour:
   Path: event:/SFX/Click On
   guid: 0f79f1114671af4c863ad7228470e2f8
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -81,7 +81,7 @@ MonoBehaviour:
   Path: event:/SFX/Board Clear
   guid: 6fee84840bd6b64aa94afd47493e5897
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -144,7 +144,7 @@ MonoBehaviour:
   Path: event:/Music/Music
   guid: f9281d32d1d20a45a2a495bee38d586f
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   Path: event:/SFX/Pumpkin Sale
   guid: c50e2a4588c8fc4da4909e86e5f1d0aa
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -175,6 +175,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2964
+--- !u!114 &-3999890208819593821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/sethpaxton/Desktop/Projects/LD45_disasterous/LD45/LD45_FMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637060571977503985
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 788192
+  Exists: 1
 --- !u!114 &-3786427270673924483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +230,7 @@ MonoBehaviour:
   Path: event:/Music/Homescreen Music
   guid: e748f1cb00353a4f85bce474a231eb52
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -251,8 +271,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 9051362347258659848}
-  - {fileID: -3786427270673924483}
+  - {fileID: 3429282684253701451}
+  - {fileID: -3999890208819593821}
   EditorEvents:
   - {fileID: 8093668594861111309}
   - {fileID: -6977164123648191579}
@@ -265,10 +285,10 @@ MonoBehaviour:
   - {fileID: -8486257200759281037}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   StringsBanks:
-  - {fileID: 9051362347258659848}
-  stringsBankWriteTime: 637060560610000000
+  - {fileID: 3429282684253701451}
+  stringsBankWriteTime: 637060571977503985
   cacheVersion: 3
 --- !u!114 &2704659555349124780
 MonoBehaviour:
@@ -305,7 +325,7 @@ MonoBehaviour:
   Path: event:/SFX/Click Off
   guid: d28d6131ff15c24f83af4260ffe6a922
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -332,6 +352,26 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 8864
+  Exists: 1
+--- !u!114 &3429282684253701451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/sethpaxton/Desktop/Projects/LD45_disasterous/LD45/LD45_FMOD/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637060571977503985
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1126
   Exists: 1
 --- !u!114 &5896793524767019851
 MonoBehaviour:
@@ -368,7 +408,7 @@ MonoBehaviour:
   Path: event:/SFX/Vine Removal
   guid: fcce7f2896d3484fa72557f478367b70
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -411,7 +451,7 @@ MonoBehaviour:
   Path: event:/SFX/Tile Place
   guid: bc87e48f59e4a8439a2051d63aaa973d
   Banks:
-  - {fileID: -3786427270673924483}
+  - {fileID: -3999890208819593821}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
